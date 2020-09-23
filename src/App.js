@@ -5,6 +5,10 @@ import Welcome from "./components/Welcome";
 import ClassWithJax from "./components/ClassWithJax";
 import Props from "./components/Props";
 import ClassProp from "./components/ClassProp";
+import ClassState from "./components/ClassState";
+import SetState from "./components/SetState";
+//import Destructure from "./components/Destructure";
+
 export default function App() {
   return (
     <div className="App">
@@ -23,6 +27,8 @@ export default function App() {
       <Props name="PHP" />
       <ClassProp classtype="C# Class" />
       <ClassProp classtype="Java Class" />
+      <ClassState />
+      <SetState />
     </div>
   );
 }
